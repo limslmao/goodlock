@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clickable="true"
+    android:orientation="vertical"
+    android:paddingTop="120dp"
+    android:paddingBottom="120dp" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="#FFFFFF"
+        android:orientation="vertical"
+        android:padding="40dp">
+
+        <ImageView
+            android:id="@+id/finger_icon"
+            android:layout_width="match_parent"
+            android:layout_height="140dp"
+            android:scaleType="center"
+            android:src="@drawable/ic_fp_40px" />
+
+
+        <TextView
+            android:id="@+id/message"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:lineSpacingMultiplier="1.5"
+            android:minHeight="50dp"
+            android:text="@string/UsingTouchID"
+            android:textColor="#ff666666"
+            android:textSize="16dp" />
+
+        <TextView
+            android:id="@+id/confirm"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:lineSpacingMultiplier="1.5"
+            android:minHeight="50dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:text="@string/confirm_fingerprint"
+            android:textColor="#ff666666"
+            android:textSize="16dp" />
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:id="@+id/singleButtonLayout"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_gravity="bottom"
+                android:gravity="center"
+                android:paddingLeft="50dp"
+                android:paddingRight="50dp"
+                android:visibility="visible">
+
+                <Button
+                    android:id="@+id/cancel"
+                    style="@style/text_15_ffffff_sdw"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:background="@drawable/shape_rectangle"
+                    android:gravity="center"
+                    android:text="@string/cancel"
+                    android:textColor="@android:color/black" />
+            </LinearLayout>
+        </FrameLayout>
+
+    </LinearLayout>
+
+</FrameLayout>

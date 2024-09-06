@@ -1,0 +1,124 @@
+<resources>
+    <string name="app_name">Good Lock</string>
+    <string name="Use_Teach">使用教學</string>
+    <string name="linkPC">如何在電腦登入</string>
+    <string name="Qlogin">快捷登入</string>
+    <string name="Set">設定</string>
+    <string name="about_us">關於我們</string>
+    <string name="Continue">繼續</string>
+    <string name="Back">Back</string>
+    <string name="description">說明：</string>
+    <string name="description4">此金鑰將會用於產生您獨特的密碼(日後可於設定中更改)</string>
+    <string name="description5">修改金鑰後請於各相關網站進行密碼重設。</string>
+    <string name="hint">請輸入金鑰:</string>
+    <string name="confirm">確認</string>
+    <string name="hint2">(任意8個英數、特殊字元)</string>
+    <string name="floatView">浮動視窗</string>
+    <string name="doubleCheck">雙重驗證</string>
+    <string name="specialCharacters">特殊字元</string>
+    <string name="continueCharacters">連續字母(數字)</string>
+    <string name="capitalCharacters">字母大寫</string>
+    <string name="numbersOnly">純數字</string>
+    <string name="changeKey">修改金鑰</string>
+    <!--快速登入與小白點登入-->
+    <string name="title_activity_normal_login_test">NormalLoginTest</string>
+    <string name="input_ur_idnurl">輸入自訂名稱與帳號：</string>
+    <string name="ok">確認</string>
+    <string name="FloatHint">初次開啟時將會跳轉至系統設定要求權限，請選擇開啟權限以正常使用此功能。</string>
+    <string name="cancel">取消</string>
+    <!--快速登入與小白點登入-->
+    <!--normal_login_test_login-->
+    <string name="normal_login_test_login_1">輸入自訂名稱  EX.Facebook</string>
+    <string name="normal_login_test_login_2">輸入ID</string>
+    <string name="normal_login_test_login_3">密碼設定</string>
+    <string name="normal_login_test_login_4">輸入網址</string>
+    <!--normal_login_test_login-->
+    <!--Login JAVA-->
+    <string name="success">您的密碼已生成</string>
+    <string name="link_error">網址連結出錯請檢查網址是否正確</string>
+    <!--Login JAVA-->
+    <!--normal_login_JAVA-->
+    <string name="add">新增 : </string>
+    <string name="change">修改 : </string>
+    <string name="delete">刪除 : </string>
+    <string name="input">請先完成名稱與帳號設定哦!</string>
+    <string name="input_notice">名稱內請勿輸入 , 喔!</string>
+    <string name="input_notice2">兩行都要打喔!</string>
+    <string name="change_data">編輯你要修改的的資料吧 !</string>
+    <string name="password_set">密碼設定</string>
+    <string name="password_set2">請先點選並完成密碼設定喔!</string>
+    <!--normal_login_JAVA-->
+    <!--changekey_JAVA-->
+    <string name="key_fail">金鑰讀取失敗QAQ </string>
+    <string name="change_success">成功更改為 : </string>
+    <string name="change_fail">更改失敗請輸入長度為8的任意字元</string>
+    <!--changekey_JAVA-->
+    <!--menu_normal_login_test_login-->
+    <string name="EditChinese">編輯</string>
+    <string name="DeleteChinese">刪除</string>
+    <!--menu_normal_login_test_login-->
+    <!--normal_login_setting-->
+    <string name="normal_login_setting_1">密碼是否要包含以下內容：</string>
+    <string name="normal_login_setting_2">特殊字元(預設)</string>
+    <string name="normal_login_setting_3">預設有 @ # $ % ^ &amp; * _ + = - ? ~ ! </string>
+    <string name="normal_login_setting_4">連續字母(數字)</string>
+    <string name="normal_login_setting_5">字母大寫</string>
+    <string name="normal_login_setting_6">純數字</string>
+    <string name="normal_login_setting_7">密碼長度(長度至少4碼，至多20碼) </string>
+    <string name="normal_login_setting_8">第一碼英文</string>
+    <string name="normal_login_setting_9">第一碼數字</string>
+    <string name="normal_login_setting_10">特殊字元(自訂)</string>
+    <string name="normal_login_setting_11">自訂特殊字元</string>
+    <!--normal_login_setting-->
+    <!--連結電腦-->
+    <string name="way1">方法一：</string>
+    <string name="way2">方法二：</string>
+    <string name="Chrome">利用 Chrome 遠端桌面功能</string>
+    <string name="way1Ex">請至 Chrome 線上應用程式商店搜尋並安裝 Chrome 遠端桌面，參照其詳細使用說明。</string>
+    <string name="Manual">手動輸入</string>
+    <string name="way2Ex">請使用快捷登入或浮動視窗功能將您的密碼輸入至可視之明文處(如：備忘錄)，之後將產生之密碼手動輸入至電腦中，使用此方法請務必小心，嚴防社交工程。</string>
+    <!--specila_words_set_themselves-->
+    <string name="specila_words_set_themselves_1">選擇不要的特殊字元 : </string>
+    <!--specila_words_set_themselves-->
+    <string name="SetHint">雙重驗證功能將會在下次開啟Good Lock時生效。</string>
+    <string name="no_fingerprint_enrolled_dialog_message">請前往設定去輸入您的指紋</string>
+    <string name="cancel_btn_dialog">設定</string>
+    <string name="no_fingersystem">不好意思，您的手機不支援指紋功能</string>
+    <string name="UsingTouchID">將指紋用於「Good Lock」</string>
+    <string name="confirm_success">驗證成功</string>
+    <string name="confirm_fail">驗證失敗</string>
+    <string name="float_confirm_success">驗證成功，請重新點選浮動視窗LOGO</string>
+    <string name="float_confirm_fail">驗證失敗，請重新點選浮動視窗LOGO</string>
+    <string name="try_again">再試一次</string>
+    <string name="confirm_fingerprint">驗證您的指紋</string>
+    <string name="appTerms">使用者條款</string>
+    <string name="plz">請先勾選同意後繼續</string>
+    <string name="terms">
+        App隱私權政策聲明
+        \n\t\t非常歡迎您下載本App，為了讓您能夠安心使用本App的各項服務與資訊，特此向您說明本App的隱私權保護政策，以保障您的權益，請您詳閱下列內容：
+        \n\n一、隱私權保護政策的適用範圍\n隱私權保護政策內容，包括本App如何處理在您使用App服務時收集到的個人識別資料。隱私權保護政策不適用於本App以外的相關連結外部網頁，也不適用於非本App所委託或參與管理的人員。
+        \n\n二、個人資料的蒐集、處理及利用方式\n當您下載本App或遊玩本App所提供之功能服務時，我們將視該服務功能性質，請您提供必要的個人資料，包含指紋、手機IMEI碼等，並在該特定目的範圍內處理及利用您的個人資料；非經您書面同意，本App不會將個人資料用於其他用途。
+        \n本App在您使用服務信箱、問卷調查等互動性功能時，會保留您所提供的姓名、電子郵件地址、聯絡方式及使用時間等。
+        \n\n三、資料之保護\n本App主機均設有防火牆、防毒系統等相關的各項資訊安全設備及必要的安全防護措施，加以保護網站及您的個人資料採用嚴格的保護措施，只由經過授權的人員才能接觸您的個人資料，相關處理人員皆簽有保密合約，如有違反保密義務者，將會受到相關的法律處分。
+        \n如因業務需要有必要委託其他單位提供服務時，本App亦會嚴格要求其遵守保密義務，並且採取必要檢查程序以確定其將確實遵守。
+        \n\n四、網站對外的相關連結\n本App的網頁提供其他網站的網路連結，您也可經由本App所提供的連結，點選進入其他網站。但該連結網站不適用本App的隱私權保護政策，您必須參考該連結網站中的隱私權保護政策。
+        \n\n五、與第三人共用個人資料之政策
+        \n本App絕不會提供、交換、出租或出售任何您的個人資料給其他個人、團體、私人企業或公務機關，但有法律依據或合約義務者，不在此限。 前項但書之情形包括不限於：
+        \n●經由您書面同意。
+        \n●法律明文規定。
+        \n●為免除您生命、身體、自由或財產上之危險。
+        \n●與公務機關或學術研究機構合作，基於公共利益為統計或學術研究而有必要，且資料經過提供者處理或蒐集著依其揭露方式無從識別特定之當事人。
+        \n●當您在App裡的行為，違反服務條款或可能損害或妨礙App與其他使用者權益或導致任何人遭受損害時，經App管理單位研析揭露您的個人資料是為了辨識、聯絡或採取法律行動所必要者。
+        \n●有利於您的權益。
+        \n●本App委託廠商協助蒐集、處理或利用您的個人資料時，將對委外廠商或個人善盡監督管理之責。
+        \n\n六、隱私權保護政策之修正\n本App隱私權保護政策將因應需求隨時進行修正。
+        \n【開發者聯絡方式】
+        \n goodlockpwd@gmail.com
+    </string>
+    <string name="agree">我同意上述條款</string>
+    <!--浮動視窗偵錯-->
+    <string name="drawtwopoints">不好意思！請至少畫2點(含)以上</string>
+    <!--浮動視窗偵錯-->
+    <string name="Login">登入教學</string>
+    <string name="Normal">一般教學</string>
+</resources>

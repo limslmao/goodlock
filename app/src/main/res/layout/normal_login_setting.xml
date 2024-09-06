@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/ChoosePasswordNum"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginTop="5dp"
+        android:text="@string/normal_login_setting_7"
+        android:textSize="20sp" />
+
+    <Spinner
+        android:id="@+id/spNumber"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:visibility="visible" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/normal_login_setting_1"
+        android:textSize="20sp" />
+
+
+    <Switch
+        android:id="@+id/switch5"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="@string/normal_login_setting_4"
+        android:textSize="20sp" />
+
+    <Switch
+        android:id="@+id/switch6"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="@string/normal_login_setting_5"
+        android:textSize="20sp" />
+
+    <Switch
+        android:id="@+id/switch7"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="@string/normal_login_setting_6"
+        android:textSize="20sp" />
+
+    <Switch
+        android:id="@+id/switch8"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="@string/normal_login_setting_8"
+        android:textSize="20sp" />
+
+    <Switch
+        android:id="@+id/switch9"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:textSize="20dp"
+        android:text="@string/normal_login_setting_9" />
+
+    <Switch
+        android:id="@+id/switch3"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="@string/normal_login_setting_2"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/switch3Notice"
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:text="@string/normal_login_setting_3"
+        android:textSize="20sp" />
+
+    <Switch
+        android:id="@+id/switch10"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:textSize="20dp"
+        android:text="@string/normal_login_setting_10" />
+
+    <Button
+        android:id="@+id/SetSpecialWords"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@drawable/buttonstyle_set"
+        android:text="@string/normal_login_setting_11" />
+
+
+
+</LinearLayout>

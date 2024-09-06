@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_set"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textT"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:text="@string/normal_login_test_login_3"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="20sp" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/LayoutB"
+        android:layout_below="@id/textT"
+        android:paddingStart="20dp"
+        android:paddingEnd="20dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/normal_login_setting_7"
+                android:textSize="20sp" />
+
+            <Spinner
+                android:id="@+id/spinner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/normal_login_setting_1"
+                android:textSize="20sp" />
+
+            <Switch
+                android:id="@+id/switchCon"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/normal_login_setting_4"
+                android:textSize="20sp" />
+
+            <Switch
+                android:id="@+id/switchCapital"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/normal_login_setting_5"
+                android:textSize="20sp" />
+
+            <Switch
+                android:id="@+id/switchNum"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/numbersOnly"
+                android:textSize="20sp" />
+
+            <Switch
+                android:id="@+id/switchFen"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/normal_login_setting_8"
+                android:textSize="20sp" />
+
+            <Switch
+                android:id="@+id/switchFnum"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/normal_login_setting_9"
+                android:textSize="20sp" />
+
+            <Switch
+                android:id="@+id/switchSpp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/normal_login_setting_2"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/normal_login_setting_3"
+                android:textSize="20sp" />
+
+            <Switch
+                android:id="@+id/switchSpc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/normal_login_setting_10"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/SpButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/buttonstyle_set"
+                android:text="@string/normal_login_setting_11" />
+
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:id="@+id/LayoutB"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
+        android:gravity="end"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/Close"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="20dp"
+            android:text="@string/cancel"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/Next"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/confirm"
+            android:textSize="16sp" />
+    </LinearLayout>
+</RelativeLayout>

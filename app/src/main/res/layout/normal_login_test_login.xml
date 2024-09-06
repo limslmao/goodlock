@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!--分隔線-->
+    <View
+        android:layout_marginTop="5dp"
+        android:layout_width="fill_parent"
+        android:layout_height="5px"
+        android:background="@android:color/darker_gray"  />
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="5dp"
+        android:hint="@string/normal_login_test_login_1" />
+
+    <View
+        android:layout_marginTop="5dp"
+        android:layout_width="fill_parent"
+        android:layout_height="5px"
+        android:background="@android:color/darker_gray"  />
+
+    <EditText
+        android:id="@+id/id"
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:hint="@string/normal_login_test_login_2" />
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_marginTop="5dp"
+        android:layout_height="5px"
+        android:background="@android:color/darker_gray"  />
+
+    <EditText
+        android:id="@+id/url"
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:hint="@string/normal_login_test_login_4" />
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_marginTop="5dp"
+        android:layout_height="5px"
+        android:background="@android:color/darker_gray"  />
+
+    <Button
+        android:id="@+id/SetButton"
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/buttonstyle_set"
+        android:text="@string/normal_login_test_login_3" />
+
+
+</LinearLayout>
